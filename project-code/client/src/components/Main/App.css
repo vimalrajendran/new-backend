@@ -1,0 +1,34 @@
+#main{
+  /* background-image: url("bgimg.png"); */
+  height: 520px;
+  background: linear-gradient(rgba(0, 0, 0, 0.311), rgb(189, 197, 98)), url("bgimg.png");
+}
+
+.container{
+
+  width: 100%;
+  margin: 1em auto;
+  background-color: rgb(189, 197, 98);
+
+}
+
+.grid{
+  display: grid;
+  flex-wrap: wrap;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+
+
+}
+
+body{
+  /* background-image: url("bg.jpg"); */
+  /* background-color: rgb(230, 174, 248) ; */
+  
+}
+
+#bg{
+  background-color: rgb(189, 197, 98);
+}
